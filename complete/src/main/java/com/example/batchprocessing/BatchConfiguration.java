@@ -36,6 +36,7 @@ public class BatchConfiguration {
     // end::setup[]
 
     // tag::readerwriterprocessor[]
+    //Estudar
     @Bean
     public FlatFileItemReader<Person> reader() {
         return new FlatFileItemReaderBuilder<Person>()
